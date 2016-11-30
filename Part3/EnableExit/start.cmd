@@ -1,0 +1,1 @@
+powershell.exe invoke-pester "C:\Users\taavast3\OneDrive\Blogs\PowerShellDistrict\Pester\EnableExit\GetComputerInfos.tests.ps1" -EnableExit -outputfile District_Tests.xml

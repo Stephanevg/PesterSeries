@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="11" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-11-24" time="08:01:40">
+  <environment user="TAAVAST3" machine-name="U279610" cwd="C:\Users\taavast3\OneDrive\Blogs\PowerShellDistrict\Pester\tags" user-domain="CORPROOT" platform="Microsoft Windows 7 Enterprise |C:\Windows|\Device\Harddisk0\Partition2" nunit-version="2.5.8.0" os-version="6.1.7601" clr-version="4.0.30319.42000" />
+  <culture-info current-culture="de-CH" current-uiculture="en-US" />
+  <test-suite type="PowerShell" name="Pester" executed="True" result="Success" success="True" time="1.1964" asserts="0">
+    <results>
+      <test-suite type="TestFixture" name="Testing the Get-ComputerInfos function" executed="True" result="Success" success="True" time="1.1964" asserts="0" description="Testing the Get-ComputerInfos function">
+        <results>
+          <test-case description="Should run when no parameter is provided" name="Testing the Get-ComputerInfos function.Should run when no parameter is provided" time="0.6736" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Should Accept PipeLine input" name="Testing the Get-ComputerInfos function.Should Accept PipeLine input" time="0.0558" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Should not accept null values" name="Testing the Get-ComputerInfos function.Should not accept null values" time="0.019" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Should Accept Array of computers" name="Testing the Get-ComputerInfos function.Should Accept Array of computers" time="0.0581" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Should Have a ComputerName" name="Testing the Get-ComputerInfos function.Should Have a ComputerName" time="0.1366" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Should Have a TotalMemorySize" name="Testing the Get-ComputerInfos function.Should Have a TotalMemorySize" time="0.0156" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Should Have a CPU" name="Testing the Get-ComputerInfos function.Should Have a CPU" time="0.0147" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Should Have a LastBoot" name="Testing the Get-ComputerInfos function.Should Have a LastBoot" time="0.0121" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Should Have a ArchitectureType" name="Testing the Get-ComputerInfos function.Should Have a ArchitectureType" time="0.0071" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Should return 10 objects" name="Testing the Get-ComputerInfos function.Should return 10 objects" time="0.1841" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Should have mocked Get-ComputerInfos" name="Testing the Get-ComputerInfos function.Should have mocked Get-ComputerInfos" time="0.0197" asserts="0" success="True" result="Success" executed="True" />
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
